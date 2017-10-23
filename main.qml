@@ -1,7 +1,7 @@
 import QtQuick 2.7
 import QtQuick.Controls 2.0
 import QtQuick.Layouts 1.3
-
+import "Util.js" as Util
 Item {
     id: root
     width: 200
@@ -14,13 +14,8 @@ Item {
     MouseArea{
         anchors.fill: parent
         onClicked: {
-            count % 2 === 0 ? recloader.source="RedRectangle.qml" : recloader.source="BlueRectangle.qml"
-            count++
-//            clicked()
+            Util.clicked123()
         }
     }
 
-    function clicked(){
-        recloader.source = "BlueRectangle.qml"
-    }
 }

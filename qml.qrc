@@ -6,5 +6,6 @@
         <file>BlueRectangle.qml</file>
         <file>application.qml</file>
         <file>MyItem.qml</file>
+        <file>Util.js</file>
     </qresource>
 </RCC>
